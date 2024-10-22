@@ -17,7 +17,7 @@ spec:
       terminationGracePeriodSeconds: 30
       containers:
       - name: swiggy-app
-        image: sevenajay/harmony-storybook
+        image: danny3112/netflix
         imagePullPolicy: "Always"
         ports:
         - containerPort: 3000
